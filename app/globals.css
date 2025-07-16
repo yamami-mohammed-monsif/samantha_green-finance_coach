@@ -1,26 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --font-inter: "Inter", sans-serif;
+  /* === Brand Colors === */
+  --color-mint: #7fc8a9; /* Primary CTA buttons */
+  --color-mint-hover: #69b596;
+  --color-mint-light: #e6f7f2; /* Section backgrounds (solution/about) */
+  --color-lavender: #f5f3ff; /* CTA section (lavender oval) */
+  --color-lavender-dark: #dbc9fa; /* Possible accent / soft highlights */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* === Neutral Grays === */
+  --color-gray-900: #2e2e2e; /* Primary dark background / CTA button bg */
+  --color-gray-800: #36454f; /* Dark text / body text (soft black) */
+  --color-gray-700: #a7a7a7; /* Disabled states, border outlines */
+  --color-gray-600: rgba(255, 255, 255, 0.5); /* Overlay text on dark bg */
+  --color-gray-500: rgba(255, 255, 255, 0.3); /* Lighter overlay (optional) */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* === Text Colors === */
+  --color-text: #2e2e2e; /* Main text on light bg */
+  --color-text-inverse: #ffffff; /* Text on dark bg or buttons */
+  --color-muted: #a7a7a7; /* Supporting text / placeholder */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* === White & Black === */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* === Shadows / UI Effects === */
+  --shadow-soft: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
