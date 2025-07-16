@@ -1,10 +1,11 @@
 import Hero from "@/components/sections/Hero";
 import Header from "@/components/Header";
+import Problem from "@/components/sections/Problem";
 
 const page = () => {
   return (
     <>
-      <div className="relative w-full lg:h-[90vh] py-8 overflow-hidden">
+      <div className="relative w-full lg:h-[90vh] py-8 overflow-hidden mb-10 md:mb-12 lg:mb-16">
         <div className="absolute inset-0 -z-10">
           <picture className="relative w-full h-auto">
             <div className="absolute inset-0 w-full h-full bg-[linear-gradient(to_right,_rgba(10,10,10,0.8)_10%,_rgba(10,10,10,0.69)_30%,_rgba(10,10,10,0)_100%)]" />
@@ -30,6 +31,7 @@ const page = () => {
         <Header />
         <Hero />
       </div>
+      <Problem />
     </>
   );
 };

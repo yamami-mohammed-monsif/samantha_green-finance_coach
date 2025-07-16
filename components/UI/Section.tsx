@@ -15,6 +15,7 @@ export default function Section({
       id={id}
       className={`
         px-5 md:px-8 lg:px-[100px]
+        mb-10 md:mb-12 lg:mb-16
         ${className}
       `}
       {...props}
