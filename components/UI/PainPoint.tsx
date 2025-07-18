@@ -50,7 +50,7 @@ const PainPoint = () => {
                 <p className="text-[10px] sm:text-xs font-semibold text-gray-900">
                   {point.title}
                 </p>
-                <p className="text-[8px] sm:text-[10px] text-gray-800">
+                <p className="text-[8px] sm:text-[10px] text-gray-900">
                   {point.text}
                 </p>
               </div>

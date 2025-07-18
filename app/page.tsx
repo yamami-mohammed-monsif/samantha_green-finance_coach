@@ -2,6 +2,7 @@ import Hero from "@/components/sections/Hero";
 import Header from "@/components/Header";
 import Problem from "@/components/sections/Problem";
 import Sollution from "@/components/sections/Sollution";
+import Testimonials from "@/components/sections/Testimonials";
 
 const page = () => {
   return (
@@ -34,6 +35,7 @@ const page = () => {
       </div>
       <Problem />
       <Sollution />
+      <Testimonials />
     </>
   );
 };

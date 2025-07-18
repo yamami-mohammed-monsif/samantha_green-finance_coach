@@ -36,3 +36,19 @@ h2 {
 .section-intro {
   @apply text-center text-gray-800 max-w-[500px] mx-auto;
 }
+
+.swiper-pagination-bullet {
+  background-color: var(
+    --color-gray-900
+  ) !important; /* mint color for inactive bullets */
+  opacity: 0.5;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(
+    --color-gray-900
+  ) !important; /* mint color for active bullet */
+  opacity: 1;
+}

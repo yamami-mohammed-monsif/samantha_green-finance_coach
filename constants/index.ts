@@ -16,6 +16,30 @@ export const NavLinks = [
   },
 ];
 
+export const testimonials = [
+  {
+    id: 1,
+    image: "/lina.png",
+    name: "Lina Parker",
+    role: "Web Designer",
+    text: "The budget kit changed everything for me. I finally feel in control of my finances and can actually save money while running my freelance business.",
+  },
+  {
+    id: 2,
+    image: "/jack.png",
+    name: "Jack Wilson",
+    role: "Copywriter",
+    text: "This system is different from everything else I've tried. It's flexible enough for my irregular income but still keeps me accountable.",
+  },
+  {
+    id: 3,
+    image: "/nina.png",
+    name: "Nina Rodriguez",
+    role: "Animator",
+    text: "I used to feel anxious about money, but now I have a clear system that works for me. I can focus on my work knowing my finances are under control.",
+  },
+];
+
 export const PainPoints = [
   {
     id: 1,
