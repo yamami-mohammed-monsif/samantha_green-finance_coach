@@ -1,6 +1,7 @@
 import Hero from "@/components/sections/Hero";
 import Header from "@/components/Header";
 import Problem from "@/components/sections/Problem";
+import Sollution from "@/components/sections/Sollution";
 
 const page = () => {
   return (
@@ -32,6 +33,7 @@ const page = () => {
         <Hero />
       </div>
       <Problem />
+      <Sollution />
     </>
   );
 };

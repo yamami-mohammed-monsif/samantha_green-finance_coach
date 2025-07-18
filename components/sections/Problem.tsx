@@ -7,7 +7,7 @@ const Problem = () => {
     <Section>
       <div>
         <h2>Money Shouldn’t Feel This Confusing</h2>
-        <p className="text-center text-gray-800 max-w-[600px] mx-auto">
+        <p className="section-intro">
           You’re not lazy. You’re not bad with money. You’ve just never been
           given a simple system that actually{" "}
           <span className="font-bold">fits your life</span> as a creative.
