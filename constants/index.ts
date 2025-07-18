@@ -20,23 +20,23 @@ export const testimonials = [
   {
     id: 1,
     image: "/lina.png",
-    name: "Lina Parker",
+    name: "Lina",
     role: "Web Designer",
-    text: "The budget kit changed everything for me. I finally feel in control of my finances and can actually save money while running my freelance business.",
+    text: "Samantha helped me finally see where my money was going. For the first time, I feel calm checking my balance no more guessing or stressing about rent.",
   },
   {
     id: 2,
     image: "/jack.png",
     name: "Jack Wilson",
     role: "Copywriter",
-    text: "This system is different from everything else I've tried. It's flexible enough for my irregular income but still keeps me accountable.",
+    text: "What I love is that there’s no app. Samantha built a system that actually fits how my brain works. I’m sticking to it, and it doesn’t feel like a chore.",
   },
   {
     id: 3,
     image: "/nina.png",
-    name: "Nina Rodriguez",
+    name: "Nina",
     role: "Animator",
-    text: "I used to feel anxious about money, but now I have a clear system that works for me. I can focus on my work knowing my finances are under control.",
+    text: "Now when I check my balance, I don’t feel panic I feel peace. I’ve got a plan, I know what’s coming, and that guilt just disappeared.",
   },
 ];
 
