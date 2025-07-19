@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Problem from "@/components/sections/Problem";
 import Sollution from "@/components/sections/Sollution";
 import Testimonials from "@/components/sections/Testimonials";
+import About from "@/components/sections/About";
 
 const page = () => {
   return (
@@ -36,6 +37,7 @@ const page = () => {
       <Problem />
       <Sollution />
       <Testimonials />
+      <About />
     </>
   );
 };
