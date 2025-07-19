@@ -4,6 +4,7 @@ import Problem from "@/components/sections/Problem";
 import Sollution from "@/components/sections/Sollution";
 import Testimonials from "@/components/sections/Testimonials";
 import About from "@/components/sections/About";
+import FAQs from "@/components/sections/FAQs";
 
 const page = () => {
   return (
@@ -38,6 +39,7 @@ const page = () => {
       <Sollution />
       <Testimonials />
       <About />
+      <FAQs />
     </>
   );
 };

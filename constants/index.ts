@@ -66,3 +66,36 @@ export const PainPoints = [
     role: "Animator",
   },
 ];
+
+export const FAQData = [
+  {
+    id: 1,
+    question: "Is this only for full-time creatives?",
+    answer:
+      "Nope. Whether you freelance on weekends or run your own studio, this works for all creative incomes.",
+  },
+  {
+    id: 2,
+    question: "What if I’m terrible with money?",
+    answer:
+      "No problem! Our approach is different. We focus on understanding your unique financial habits and building a system that works for you, not against you. It's about progress, not perfection.",
+  },
+  {
+    id: 3,
+    question: "I’ve tried budgeting before and failed.",
+    answer:
+      "No problem! Our approach is different. We focus on understanding your unique financial habits and building a system that works for you, not against you. It's about progress, not perfection.",
+  },
+  {
+    id: 4,
+    question: "How much time will this take each week?",
+    answer:
+      "Most clients start feeling more in control within the first two weeks. You'll have clear visibility of your money flow and practical steps to follow. Full financial confidence typically develops within 2-3 months of consistent practice.",
+  },
+  {
+    id: 5,
+    question: "What if I have inconsistent income?",
+    answer:
+      "No problem! Our approach is designed to be flexible and adaptable. We'll work with you to create a system that accommodates your unique income patterns, ensuring you always have a clear view of your finances.",
+  },
+];
