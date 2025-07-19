@@ -31,9 +31,14 @@ const About = () => {
               small steps that stick.
             </p>
           </div>
+          <div className="flex-col items-start mt-6 mdpls:mt-10 hidden xl:flex">
+            <Button variant="secondary" className="w-full mdpls:w-auto">
+              Claim Your Free Kit now
+            </Button>
+          </div>
         </div>
       </div>
-      <div className="flex flex-col items-center mt-6 mdpls:mt-10">
+      <div className="flex flex-col items-center mt-6 mdpls:mt-10 xl:hidden">
         <Button variant="secondary" className="w-full mdpls:w-auto">
           Claim Your Free Kit now
         </Button>
