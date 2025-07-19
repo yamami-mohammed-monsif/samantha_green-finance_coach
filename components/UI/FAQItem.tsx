@@ -20,7 +20,7 @@ const FAQItem = ({ question, answer, isOpen, onToggle }: FAQItemProps) => {
       <div className="border-b border-gray-700 last:border-none">
         <button
           onClick={onToggle}
-          className="w-full flex items-center justify-between py-4 text-left"
+          className="w-full flex items-center justify-between py-4 text-left cursor-pointer"
           aria-expanded={isOpen}
           aria-controls="faq-answer"
         >
