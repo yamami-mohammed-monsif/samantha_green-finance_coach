@@ -13,7 +13,7 @@ const FAQs = () => {
   };
 
   return (
-    <Section>
+    <Section id="faqs">
       <div className="text-center mb-10">
         <h2>
           Got Questions?

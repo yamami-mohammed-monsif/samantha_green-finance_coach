@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <Section className="py-10">
+    <Section id="testimonials" className="py-10">
       <div className="text-center mb-10">
         <h2>Real Stories. Real Change.</h2>
         <p className="section-intro">
