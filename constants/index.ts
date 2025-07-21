@@ -19,7 +19,7 @@ export const NavLinks = [
 export const PainPoints = [
   {
     id: 1,
-    img: "/lina.png",
+    img: "/lina.webp",
     title: "“I never know where my money actually goes.”",
     text: "Tracking feels impossible  one week I’m fine, the next I’m wondering how rent will get paid.",
     author: "Lina",
@@ -27,7 +27,7 @@ export const PainPoints = [
   },
   {
     id: 2,
-    img: "/jack.png",
+    img: "/jack.webp",
     title: "“budgeting apps just don’t work for me.”",
     text: "I’ve tried a bunch of them, but they’re too rigid or overwhelming. I give up after a week.",
     author: "Jack",
@@ -35,7 +35,7 @@ export const PainPoints = [
   },
   {
     id: 3,
-    img: "/nina.png",
+    img: "/nina.webp",
     title: "“I feel anxious every time I check my bank account.”",
     text: "Even when I haven’t done anything wrong, I feel guilty just looking at my balance.",
     author: "Nina",
