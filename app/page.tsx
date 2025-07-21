@@ -6,6 +6,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import About from "@/components/sections/About";
 import FAQs from "@/components/sections/FAQs";
 import CTA from "@/components/sections/CTA";
+import Footer from "@/components/sections/Footer";
 
 const page = () => {
   return (
@@ -42,6 +43,7 @@ const page = () => {
       <About />
       <FAQs />
       <CTA />
+      <Footer />
     </>
   );
 };
