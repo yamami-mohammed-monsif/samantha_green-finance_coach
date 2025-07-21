@@ -4,7 +4,7 @@ import Button from "../UI/Button";
 
 const About = () => {
   return (
-    <Section id="about">
+    <Section id="about" className="relative">
       <div className="flex flex-col items-center justify-center gap-4 mdpls:flex-row mdpls:gap-10 xl:gap-28">
         <div className="h-[400px] mdpls:h-auto">
           <Image
@@ -43,6 +43,11 @@ const About = () => {
           Claim Your Free Kit now
         </Button>
       </div>
+      <img
+        src="dots.png"
+        alt="dots pattern"
+        className="absolute aspect-square w-30 right-20 -bottom-20 -rotate-10"
+      />
     </Section>
   );
 };

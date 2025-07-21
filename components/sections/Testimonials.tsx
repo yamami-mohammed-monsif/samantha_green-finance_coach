@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <Section id="testimonials" className="py-10">
+    <Section id="testimonials" className="py-10 relative">
       <div className="text-center mb-10">
         <h2>Real Stories. Real Change.</h2>
         <p className="section-intro">
@@ -46,6 +46,11 @@ const Testimonials = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <img
+        src="dots.png"
+        alt="dots pattern"
+        className="absolute top-5 left-20 aspect-square w-30 rotate-10"
+      />
     </Section>
   );
 };

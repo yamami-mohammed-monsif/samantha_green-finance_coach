@@ -24,7 +24,7 @@ const Problem = () => {
         <img
           src="/dots.png"
           alt="dots pattern"
-          className="absolute -top-3 -left-3 w-20 h-20 -z-10"
+          className="absolute -top-4 -left-4 w-30 h-30 -z-10"
         />
         <PainPoint />
       </div>
