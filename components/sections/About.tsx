@@ -47,7 +47,7 @@ const About = () => {
       <img
         src="dots.png"
         alt="dots pattern"
-        className="absolute aspect-square w-30 right-20 -bottom-20 -rotate-10"
+        className="hidden mdpls:inline-block absolute aspect-square w-30 right-20 -bottom-20 -rotate-10"
       />
     </Section>
   );

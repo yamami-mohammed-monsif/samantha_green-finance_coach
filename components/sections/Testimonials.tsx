@@ -49,7 +49,7 @@ const Testimonials = () => {
       <img
         src="dots.png"
         alt="dots pattern"
-        className="absolute top-5 left-20 aspect-square w-30 rotate-10"
+        className="hidden mdpls:inline-block absolute top-5 left-20 aspect-square w-30 rotate-10"
       />
     </Section>
   );
