@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <Section
       id="cta"
-      className="bg-mint-light py-6 md:py-10 md:rounded-full max-w-[950px] mx-auto"
+      className="bg-mint-light py-6 md:py-10 md:rounded-full max-w-[950px] mx-auto z-10 relative"
     >
       <div className="mb-6 md:mb-8">
         <h2>Ready to Feel In Control of Your Money?</h2>

@@ -4,9 +4,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <Section className="bg-gray-900 text-white pt-50 pb-2 -mt-50 -z-10 relative">
+    <Section className="bg-gray-900 text-white pt-50 pb-2 -mt-50">
       <div className="flex flex-col gap-8 sm:flex-row sm:justify-between max-w-4xl mx-auto px-4">
-        <div className="text-2xl font-bold">SAMANTHA</div>
+        <Link href="/" className="text-2xl font-bold">
+          SAMANTHA
+        </Link>
         <nav className="flex flex-col md:flex-row gap-3 md:gap-6">
           {NavLinks.map(({ id, href, label }) => {
             return (
