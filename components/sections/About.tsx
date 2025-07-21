@@ -8,7 +8,7 @@ const About = () => {
       <div className="flex flex-col items-center justify-center gap-4 mdpls:flex-row mdpls:gap-10 xl:gap-28">
         <div className="h-[400px] mdpls:h-auto">
           <Image
-            src="/about.jpeg"
+            src="/about.webp"
             alt="Samantha sitting in her office smiling to the camera"
             width={840}
             height={560}
