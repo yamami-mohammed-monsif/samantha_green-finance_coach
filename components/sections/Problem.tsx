@@ -15,7 +15,7 @@ const Problem = () => {
       </div>
       <div className="relative mt-4 w-fit mx-auto">
         <Image
-          src="/problem.png"
+          src="/problem.webp"
           alt="Problem Illustration"
           width={867}
           height={480}

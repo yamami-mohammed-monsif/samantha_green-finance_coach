@@ -35,7 +35,7 @@ const Sollution = () => {
         </div>
         <div className="relative w-fit mx-auto lg:row-span-2">
           <Image
-            src="/sollution.jpeg"
+            src="/sollution.webp"
             alt="Solution Illustration"
             width={867}
             height={480}
