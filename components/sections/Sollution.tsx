@@ -5,7 +5,7 @@ import { sollutions } from "@/constants";
 
 const Sollution = () => {
   return (
-    <Section className="bg-mint-light py-6">
+    <Section className="bg-mint-light py-6 md:py-10">
       <div className="w-fit mx-auto grid grid-cols-1 gap-5 lg:grid-cols-2 lg:grid-rows-2 lg:gap-x-20">
         <div className="lg:mt-10">
           <h2 className="lg:[text-align:left_!important] lg:[margin-left:0_!important]">
