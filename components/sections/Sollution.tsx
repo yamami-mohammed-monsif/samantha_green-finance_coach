@@ -1,24 +1,7 @@
 import Section from "../UI/Section";
 import Image from "next/image";
 import Button from "../UI/Button";
-
-const sollutions = [
-  {
-    id: 1,
-    text: "Get the Free Budget Kit",
-    ml: "md:ml-0",
-  },
-  {
-    id: 2,
-    text: "Set Up a System That Fits You",
-    ml: "md:ml-[10%]",
-  },
-  {
-    id: 3,
-    text: "Feel at Peace With Your Money",
-    ml: "md:ml-[20%]",
-  },
-];
+import { sollutions } from "@/constants";
 
 const Sollution = () => {
   return (

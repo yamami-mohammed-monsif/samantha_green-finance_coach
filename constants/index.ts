@@ -16,30 +16,6 @@ export const NavLinks = [
   },
 ];
 
-export const testimonials = [
-  {
-    id: 1,
-    image: "/lina.png",
-    name: "Lina",
-    role: "Web Designer",
-    text: "Samantha helped me finally see where my money was going. For the first time, I feel calm checking my balance no more guessing or stressing about rent.",
-  },
-  {
-    id: 2,
-    image: "/jack.png",
-    name: "Jack Wilson",
-    role: "Copywriter",
-    text: "What I love is that there’s no app. Samantha built a system that actually fits how my brain works. I’m sticking to it, and it doesn’t feel like a chore.",
-  },
-  {
-    id: 3,
-    image: "/nina.png",
-    name: "Nina",
-    role: "Animator",
-    text: "Now when I check my balance, I don’t feel panic I feel peace. I’ve got a plan, I know what’s coming, and that guilt just disappeared.",
-  },
-];
-
 export const PainPoints = [
   {
     id: 1,
@@ -64,6 +40,48 @@ export const PainPoints = [
     text: "Even when I haven’t done anything wrong, I feel guilty just looking at my balance.",
     author: "Nina",
     role: "Animator",
+  },
+];
+
+export const sollutions = [
+  {
+    id: 1,
+    text: "Get the Free Budget Kit",
+    ml: "md:ml-0",
+  },
+  {
+    id: 2,
+    text: "Set Up a System That Fits You",
+    ml: "md:ml-[10%]",
+  },
+  {
+    id: 3,
+    text: "Feel at Peace With Your Money",
+    ml: "md:ml-[20%]",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    image: "/lina.png",
+    name: "Lina",
+    role: "Web Designer",
+    text: "Samantha helped me finally see where my money was going. For the first time, I feel calm checking my balance no more guessing or stressing about rent.",
+  },
+  {
+    id: 2,
+    image: "/jack.png",
+    name: "Jack Wilson",
+    role: "Copywriter",
+    text: "What I love is that there’s no app. Samantha built a system that actually fits how my brain works. I’m sticking to it, and it doesn’t feel like a chore.",
+  },
+  {
+    id: 3,
+    image: "/nina.png",
+    name: "Nina",
+    role: "Animator",
+    text: "Now when I check my balance, I don’t feel panic I feel peace. I’ve got a plan, I know what’s coming, and that guilt just disappeared.",
   },
 ];
 
