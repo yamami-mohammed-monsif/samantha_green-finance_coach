@@ -1,6 +1,7 @@
 import Section from "../UI/Section";
 import Image from "next/image";
 import Button from "../UI/Button";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -33,7 +34,7 @@ const About = () => {
           </div>
           <div className="flex-col items-start mt-6 mdpls:mt-10 hidden xl:flex">
             <Button variant="secondary" className="w-full mdpls:w-auto">
-              Claim Your Free Kit now
+              <Link href="#cta">Claim Your Free Kit now</Link>
             </Button>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import Section from "../UI/Section";
 import Image from "next/image";
 import Button from "../UI/Button";
+import Link from "next/link";
 import { sollutions } from "@/constants";
 
 const Sollution = () => {
@@ -46,7 +47,7 @@ const Sollution = () => {
       </div>
       <div className="mt-7 lg:mt-10 flex justify-center items-center">
         <Button variant="secondary" className="w-full md:w-auto">
-          Get the Free Budget Kit Now
+          <Link href="#cta">Get the Free Budget Kit Now</Link>
         </Button>
       </div>
     </Section>

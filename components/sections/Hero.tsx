@@ -1,6 +1,6 @@
 import Section from "../UI/Section";
-import { ArrowRight } from "lucide-react";
 import Button from "../UI/Button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -17,7 +17,9 @@ const Hero = () => {
           Overwhelmed by money? I’ll help you take control starting with my free
           budget starter kit.
         </p>
-        <Button variant="primary">Get the Free Budget Kit Now</Button>
+        <Button variant="primary">
+          <Link href="#cta">Get the Free Budget Kit Now</Link>
+        </Button>
       </div>
     </Section>
   );
