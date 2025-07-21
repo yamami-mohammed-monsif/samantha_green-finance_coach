@@ -5,7 +5,7 @@ import { Suspense } from "react";
 
 const SectionLoader = () => (
   <div className="min-h-[200px] flex items-center justify-center">
-    <div className="animate-pulse bg-gray-200 rounded-lg w-full h-32"></div>
+    <div className="animate-pulse bg-gray-200 rounded-lg w-full h-60"></div>
   </div>
 );
 
