@@ -1,5 +1,6 @@
 import Section from "../UI/Section";
 import { ArrowRight } from "lucide-react";
+import Button from "../UI/Button";
 
 const Hero = () => {
   return (
@@ -16,10 +17,7 @@ const Hero = () => {
           Overwhelmed by money? I’ll help you take control starting with my free
           budget starter kit.
         </p>
-        <button className="bg-mint text-white px-5 py-2 flex items-center rounded-lg cursor-pointer hover:bg-mint-hover hover:scale-110 transition-all duration-200 ease">
-          <span>Get the Free Budget Kit Now</span>
-          <ArrowRight className="inline-block ml-2" />
-        </button>
+        <Button variant="primary">Get the Free Budget Kit Now</Button>
       </div>
     </Section>
   );
