@@ -64,21 +64,21 @@ export const sollutions = [
 export const testimonials = [
   {
     id: 1,
-    image: "/lina.png",
+    image: "/lina.webp",
     name: "Lina",
     role: "Web Designer",
     text: "Samantha helped me finally see where my money was going. For the first time, I feel calm checking my balance no more guessing or stressing about rent.",
   },
   {
     id: 2,
-    image: "/jack.png",
+    image: "/jack.webp",
     name: "Jack Wilson",
     role: "Copywriter",
     text: "What I love is that there’s no app. Samantha built a system that actually fits how my brain works. I’m sticking to it, and it doesn’t feel like a chore.",
   },
   {
     id: 3,
-    image: "/nina.png",
+    image: "/nina.webp",
     name: "Nina",
     role: "Animator",
     text: "Now when I check my balance, I don’t feel panic I feel peace. I’ve got a plan, I know what’s coming, and that guilt just disappeared.",

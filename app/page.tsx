@@ -20,7 +20,7 @@ const page = () => {
               type="image/jpeg"
             />
             <img
-              src="/hero-mobile.jpg"
+              src="/hero-mobile.webp"
               alt="Hero Image"
               width={1440}
               height={765}
