@@ -5,6 +5,7 @@ import Sollution from "@/components/sections/Sollution";
 import Testimonials from "@/components/sections/Testimonials";
 import About from "@/components/sections/About";
 import FAQs from "@/components/sections/FAQs";
+import CTA from "@/components/sections/CTA";
 
 const page = () => {
   return (
@@ -40,6 +41,7 @@ const page = () => {
       <Testimonials />
       <About />
       <FAQs />
+      <CTA />
     </>
   );
 };

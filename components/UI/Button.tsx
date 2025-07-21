@@ -5,11 +5,23 @@ interface ButtonProps {
   children?: React.ReactNode;
   variant?: "primary" | "secondary";
   className?: string;
+  type?: "button" | "submit" | "reset";
+  disabled?: boolean;
 }
 
-const Button = ({ children, variant, onClick, className }: ButtonProps) => {
+const Button = ({
+  children,
+  variant,
+  onClick,
+  className,
+  type,
+  disabled,
+}: ButtonProps) => {
   const baseClasses =
-    "px-10 py-3 rounded-lg hover:scale-105 transition-all duration-300 flex items-center justify-center cursor-pointer";
+    "px-10 py-3 rounded-lg transition-all duration-300 flex items-center justify-center " +
+    (disabled
+      ? "opacity-50 cursor-not-allowed"
+      : "hover:scale-105 cursor-pointer");
   const variantClasses =
     variant === "secondary"
       ? "bg-gray-900 text-white hover:bg-gray-800"
@@ -17,7 +29,9 @@ const Button = ({ children, variant, onClick, className }: ButtonProps) => {
 
   return (
     <button
+      type={type || "button"}
       onClick={onClick}
+      disabled={disabled}
       className={`${baseClasses} ${variantClasses} ${className || ""}`}
     >
       <span>{children}</span>
