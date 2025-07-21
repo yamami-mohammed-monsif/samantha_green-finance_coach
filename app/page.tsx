@@ -1,12 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import Header from "@/components/Header";
-import Problem from "@/components/sections/Problem";
-import Sollution from "@/components/sections/Sollution";
-import Testimonials from "@/components/sections/Testimonials";
-import About from "@/components/sections/About";
-import FAQs from "@/components/sections/FAQs";
-import CTA from "@/components/sections/CTA";
-import Footer from "@/components/sections/Footer";
+import ClientSections from "./ClientSections";
 
 const page = () => {
   return (
@@ -37,13 +31,7 @@ const page = () => {
         <Header />
         <Hero />
       </div>
-      <Problem />
-      <Sollution />
-      <Testimonials />
-      <About />
-      <FAQs />
-      <CTA />
-      <Footer />
+      <ClientSections />
     </>
   );
 };
