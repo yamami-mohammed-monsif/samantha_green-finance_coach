@@ -24,36 +24,46 @@ const Form = () => {
     }, 5000);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setIsLoading(true);
+
+  //   try {
+  //     const response = await fetch("/api/subscribe", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify({ email }),
+  //     });
+
+  //     const data = await response.json();
+
+  //     if (data.success) {
+  //       showNotification(data.message, "success");
+  //       setEmail("");
+  //     } else {
+  //       showNotification(data.message, "error");
+  //     }
+  //   } catch (error) {
+  //     showNotification(
+  //       "Sorry, something went wrong. Please try again.",
+  //       "error"
+  //     );
+  //     console.error("Subscription error:", error);
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // };
+
+  // Form submission handler (demo mode)
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsLoading(true);
-
-    try {
-      const response = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
-
-      const data = await response.json();
-
-      if (data.success) {
-        showNotification(data.message, "success");
-        setEmail("");
-      } else {
-        showNotification(data.message, "error");
-      }
-    } catch (error) {
-      showNotification(
-        "Sorry, something went wrong. Please try again.",
-        "error"
-      );
-      console.error("Subscription error:", error);
-    } finally {
-      setIsLoading(false);
-    }
+    showNotification(
+      "Demo only: This form does not save or send your data.",
+      "success"
+    );
+    setEmail("");
   };
 
   return (
